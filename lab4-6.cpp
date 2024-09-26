@@ -7,12 +7,10 @@ using namespace std;
 int main()
 {
 	//declare variables
-	int base = 11;
-	int height = 13;
-	double area = 0.0;
+	double base = 11.0;
+	double height = 13.0;
+	double area = base * height / 2.0;
 
-	//calculate and display area
-	area = base * height / 2;
 	cout << "Area: " << area << endl;
 
 	return 0;
